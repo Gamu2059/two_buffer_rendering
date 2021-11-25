@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/CustomAssets/Scenes/two_buffer_rendering.unity
+    guid: d60a84f7f69ae464d9c2070ffcd9e338
   m_configObjects: {}

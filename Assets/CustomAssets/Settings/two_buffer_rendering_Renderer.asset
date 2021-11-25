@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LowDpiRenderFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  resolutionRate: 0.25
+  resolutionRate: 0.5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

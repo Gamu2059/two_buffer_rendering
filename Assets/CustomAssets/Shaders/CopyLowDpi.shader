@@ -2,15 +2,8 @@ Shader "Hidden/Universal Render Pipeline/Custom/CopyLowDpi"
 {
     SubShader
     {
-        Tags
-        {
-            "RenderType" = "Opaque" "RenderPipeline" = "UniversalPipeline"
-        }
-        LOD 100
-
         Pass
         {
-            Name "CopyLowDpi"
             ZTest Always
             ZWrite On
             Cull Off
@@ -26,7 +19,7 @@ Shader "Hidden/Universal Render Pipeline/Custom/CopyLowDpi"
 
             TEXTURE2D_X(_LowDpi);
             SAMPLER(sampler_LowDpi);
-            TEXTURE2D_X(_LowDpiDepth);
+            TEXTURE2D_X_FLOAT(_LowDpiDepth);
             SAMPLER(sampler_LowDpiDepth);
 
             struct output

@@ -9,6 +9,10 @@ namespace Gamu2059.two_buffer_rendering
 
         public float ResolutionRate => resolutionRate;
 
+        [SerializeField] private Shader shader;
+
+        public Shader Shader => shader;
+
         private LowDpiRenderPass pass;
         
         public override void Create()
